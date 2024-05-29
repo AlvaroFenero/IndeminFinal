@@ -30,3 +30,4 @@ export class MainPage implements OnInit {
     }
   }
 }
+// Asegúrate de incluir ReactiveFormsModule aquí

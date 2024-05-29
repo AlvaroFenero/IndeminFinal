@@ -1,11 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'; // Importa ReactiveFormsModule aquí
 import { IonicModule } from '@ionic/angular';
-
 import { MainPageRoutingModule } from './main-routing.module';
-
 import { MainPage } from './main.page';
 
 @NgModule({
@@ -13,7 +10,8 @@ import { MainPage } from './main.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    MainPageRoutingModule
+    MainPageRoutingModule,
+    ReactiveFormsModule // Asegúrate de incluir ReactiveFormsModule aquí
   ],
   declarations: [MainPage]
 })
